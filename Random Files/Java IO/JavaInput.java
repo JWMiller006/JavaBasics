@@ -16,6 +16,8 @@ class Input()
         scan.nextFloat();
         // Call [variable name].nextShort() to read the next short int entered 
         scan.nextShort();
+        // Call [variable name].nextBoolean() to read the next boolean enter
+        scan.nextBookean();
         // And so on for each variable type, just make sure that the library is imported
     }
 }
