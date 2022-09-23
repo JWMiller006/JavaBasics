@@ -1,0 +1,66 @@
+This file is a compilation 
+
+Variable Initialization
+    To initialize a variable, one must first declare variable type followed by the variable name 
+
+    Variable names must follow certain standards: 
+            - Must not start with a number
+            - Must not include any space 
+            - Must not include any hyphen, bracket, or any special character
+
+    Variable Types (Primitave only): 
+            - 'byte': any whole number (up to 8 bits [from -128 to 127])
+            - 'short': any whole number (up to 16 bits [from -32768 to 32767])
+            - 'int': any whole number (up to 32 bits [from -2147483848 to 2147483847])
+            - 'long': any whole number (up to 64 bits [from -9223372036854775808 to 9223372036854775807])
+            - 'double': any number (including decimals; up to 64 bits)
+            - 'char': any single character (including escape characters)
+        Variable Types (Non-Primative): 
+            - 'String': any collection of character (up to 32 bits [2147483647 characters])
+            - 'Class': a user defined data type that is used to create objects  containing  
+                a set of properties or methods
+            - 'Object': a variable of a class which one can access the member functions and 
+                variables of that class, which consists of a state, an identity, and a behaviour
+            - 'Array': a collection of a specified data type 
+            - 'Interface': similar to a class, but can have both variables and functions
+
+Loops 
+    'for' loops are iterative statements that are used to repeat sets of
+            code over and over again, typically for a set amount of iterations.  
+            They are good for printing repeatedly, comparing a user's input through
+            a list, and other repetitive simple iterative types of functions. 
+            'for' loops are different than while loops in that their count/check
+            variable is defined when the 'for' statement is called.  This 
+            allows for a new local variable to be called in different situations
+            as long as that variable is not alredy in use.  This does mean, 
+            however, that you cann't directly access the count variable outside
+            of the loop itself.  
+
+    Basic syntax is the keyword 'for' followed by parenthases followed by brackets
+              Inside the parenthases, you must have the following: 
+                 - The declaration of a count variable
+                 - The condition check 
+                 - The action used to change the count variable
+              Inside the brackets is what is repeated, though 
+              NOTE that it is not a good practice to declare variables
+              inside of the brackets, since it will most likely exit 
+              wiht an error message
+              Also note that spacing isn't critical, just helpful to help trace
+    
+    'while' loops are a good way to modify a variable, read files, user input,
+        and other variable data editing that is repetitive or in some form of a 
+        pattern for an unkown (at the writing of the program) number of iterations.
+        These loops are different from 'for' loops in that they must have a count
+        or check variable initialized and defined before the start of the loop. 
+        This does create a little more work, but allows for the data of the 
+        variable to be stored after the completion of the loop.  
+
+    General Syntax is as follows: 
+                - 'while' keyword 
+                - Parenthases [includes the following] 
+                    - Check Condition, must be a Conditional Statment that returns
+                        'true' or 'false'
+                - Brackets
+                    - This is the section that gets repeated
+                    - NOTE: You also must include a modifier to the check variable
+    
